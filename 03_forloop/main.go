@@ -8,4 +8,10 @@ func main() {
 		sum += i
 	}
 	fmt.Println(sum)
+
+	j := 0
+	for j < 0 {
+		j += 1
+	}
+	fmt.Println(j)
 }
